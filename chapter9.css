@@ -18,14 +18,14 @@
 .step-box{
 	float:left;
 	width: 32%;
-	margin-right: 2%;
+	margin: 0 auto;
 	padding: 10px;
 	position: relative;
 	border: 1px solid #eee;
 }
 
 .step-box:last-child{
-	margin-right: 0;
+	margin: 0 auto;
 }
 
 .step-img1{
@@ -63,7 +63,7 @@
 @media screen and (max-width:768px){
 	.main{
 		width: 90%;
-		margin: 50px 10%;
+		margin: 50px 5%;
 	}
 	.step-box{
 		float: none;
